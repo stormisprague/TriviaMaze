@@ -1,0 +1,10 @@
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.pdb
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csprojResolveAssemblyReference.cache
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Form1.resources
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Properties.Resources.resources
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
+c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Form2.resources
