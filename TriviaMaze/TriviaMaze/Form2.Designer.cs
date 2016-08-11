@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.answer4 = new System.Windows.Forms.Button();
             this.answer2 = new System.Windows.Forms.Button();
             this.question = new System.Windows.Forms.Label();
@@ -43,7 +44,7 @@
             // 
             this.answer4.BackColor = System.Drawing.SystemColors.Control;
             this.answer4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.answer4.Font = new System.Drawing.Font("Raleway", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.answer4.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answer4.Location = new System.Drawing.Point(13, 360);
             this.answer4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.answer4.Name = "answer4";
@@ -56,7 +57,7 @@
             // 
             this.answer2.BackColor = System.Drawing.SystemColors.Control;
             this.answer2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.answer2.Font = new System.Drawing.Font("Raleway", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.answer2.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answer2.Location = new System.Drawing.Point(13, 226);
             this.answer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.answer2.Name = "answer2";
@@ -75,12 +76,13 @@
             this.question.Size = new System.Drawing.Size(576, 65);
             this.question.TabIndex = 2;
             this.question.Text = "Hello";
+            this.question.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // answer3
             // 
             this.answer3.BackColor = System.Drawing.SystemColors.Control;
             this.answer3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.answer3.Font = new System.Drawing.Font("Raleway", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.answer3.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answer3.Location = new System.Drawing.Point(13, 293);
             this.answer3.Margin = new System.Windows.Forms.Padding(4);
             this.answer3.Name = "answer3";
@@ -93,7 +95,7 @@
             // 
             this.answer1.BackColor = System.Drawing.SystemColors.Control;
             this.answer1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.answer1.Font = new System.Drawing.Font("Raleway", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.answer1.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answer1.Location = new System.Drawing.Point(13, 159);
             this.answer1.Margin = new System.Windows.Forms.Padding(4);
             this.answer1.Name = "answer1";
@@ -131,6 +133,7 @@
             this.Controls.Add(this.answer2);
             this.Controls.Add(this.answer4);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
             this.panel1.ResumeLayout(false);
