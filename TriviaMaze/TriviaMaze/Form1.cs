@@ -12,9 +12,11 @@ namespace TriviaMaze
 {
     public partial class Form1 : Form
     {
+        public TriviaManager manager;
         public Form1()
         {
             InitializeComponent();
+            manager = new TriviaManager();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -70,8 +72,10 @@ namespace TriviaMaze
 
         private bool displayQuestion()
         {
+            TriviaManager.TriviaQuestion q = new TriviaManager.TriviaQuestion();
+            q = manager.GetRandomTriviaQuestion();
             bool answer;
-            using (Form2 f2 = new Form2())
+            using (Form2 f2 = new Form2(q.Question, q.AnswerA, q.AnswerB, q.AnswerC, q.AnswerD, q.Answer))
             {
                 f2.ShowDialog();
                 answer = f2.correct;

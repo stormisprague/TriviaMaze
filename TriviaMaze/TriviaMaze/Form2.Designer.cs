@@ -28,50 +28,75 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.answer4 = new System.Windows.Forms.Button();
+            this.answer2 = new System.Windows.Forms.Button();
+            this.question = new System.Windows.Forms.Label();
+            this.answer3 = new System.Windows.Forms.Button();
+            this.answer1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // answer4
             // 
-            this.button1.Location = new System.Drawing.Point(102, 167);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Correct";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.answer4.Location = new System.Drawing.Point(490, 225);
+            this.answer4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.answer4.Name = "answer4";
+            this.answer4.Size = new System.Drawing.Size(151, 61);
+            this.answer4.TabIndex = 0;
+            this.answer4.UseVisualStyleBackColor = true;
+            this.answer4.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // answer2
             // 
-            this.button2.Location = new System.Drawing.Point(301, 167);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Incorrect";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.answer2.Location = new System.Drawing.Point(172, 225);
+            this.answer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.answer2.Name = "answer2";
+            this.answer2.Size = new System.Drawing.Size(151, 59);
+            this.answer2.TabIndex = 1;
+            this.answer2.UseVisualStyleBackColor = true;
+            this.answer2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label1
+            // question
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(204, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "QUESTION!";
+            this.question.AutoSize = true;
+            this.question.Location = new System.Drawing.Point(10, 63);
+            this.question.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.question.Name = "question";
+            this.question.Size = new System.Drawing.Size(0, 17);
+            this.question.TabIndex = 2;
+            // 
+            // answer3
+            // 
+            this.answer3.Location = new System.Drawing.Point(331, 225);
+            this.answer3.Margin = new System.Windows.Forms.Padding(4);
+            this.answer3.Name = "answer3";
+            this.answer3.Size = new System.Drawing.Size(151, 59);
+            this.answer3.TabIndex = 3;
+            this.answer3.UseVisualStyleBackColor = true;
+            this.answer3.Click += new System.EventHandler(this.answer3_Click);
+            // 
+            // answer1
+            // 
+            this.answer1.Location = new System.Drawing.Point(13, 225);
+            this.answer1.Margin = new System.Windows.Forms.Padding(4);
+            this.answer1.Name = "answer1";
+            this.answer1.Size = new System.Drawing.Size(151, 59);
+            this.answer1.TabIndex = 4;
+            this.answer1.UseVisualStyleBackColor = true;
+            this.answer1.Click += new System.EventHandler(this.answer1_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 256);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(653, 315);
+            this.Controls.Add(this.answer1);
+            this.Controls.Add(this.answer3);
+            this.Controls.Add(this.question);
+            this.Controls.Add(this.answer2);
+            this.Controls.Add(this.answer4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Answer the Question!";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -79,8 +104,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button answer4;
+        private System.Windows.Forms.Button answer2;
+        private System.Windows.Forms.Label question;
+        private System.Windows.Forms.Button answer3;
+        private System.Windows.Forms.Button answer1;
     }
 }
