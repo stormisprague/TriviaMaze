@@ -8,24 +8,6 @@ c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\
 c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
 c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
 c:\users\stormi\documents\visual studio 2015\Projects\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Form2.resources
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.pdb
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\EntityFramework.dll
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\EntityFramework.SqlServer.dll
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\EntityFramework.xml
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\EntityFramework.SqlServer.xml
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Form1.resources
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Form2.resources
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Properties.Resources.resources
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csprojResolveAssemblyReference.cache
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\System.Data.SQLite.dll
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\System.Data.SQLite.xml
 C:\Users\Stormi\Documents\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
 C:\Users\Stormi\Documents\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
 C:\Users\Stormi\Documents\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
@@ -44,3 +26,21 @@ C:\Users\Stormi\Documents\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.
 C:\Users\Stormi\Documents\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Form2.resources
 C:\Users\Stormi\Documents\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Properties.Resources.resources
 C:\Users\Stormi\Documents\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\Assets\Calm.wav
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.pdb
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\EntityFramework.dll
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\EntityFramework.SqlServer.dll
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\System.Data.SQLite.dll
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\EntityFramework.xml
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\EntityFramework.SqlServer.xml
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\System.Data.SQLite.xml
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Form1.resources
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Form2.resources
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Properties.Resources.resources
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb

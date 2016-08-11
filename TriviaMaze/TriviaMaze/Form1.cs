@@ -24,7 +24,9 @@ namespace TriviaMaze
         {
             InitializeComponent();
             manager = new TriviaManager();
-
+            System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"Assets\Calm.wav");
+            sp.PlayLooping();
+            //sp.Play();
             setup();
         }
 

@@ -49,7 +49,7 @@
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Location = new System.Drawing.Point(87, 145);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(153, 271);
             this.button1.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Location = new System.Drawing.Point(373, 145);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(153, 271);
             this.button2.TabIndex = 1;
@@ -75,7 +75,7 @@
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Location = new System.Drawing.Point(656, 145);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(153, 271);
             this.button3.TabIndex = 2;
@@ -115,7 +115,7 @@
             this.room_num_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.room_num_label.Location = new System.Drawing.Point(218, 43);
             this.room_num_label.Name = "room_num_label";
-            this.room_num_label.Size = new System.Drawing.Size(223, 31);
+            this.room_num_label.Size = new System.Drawing.Size(280, 39);
             this.room_num_label.TabIndex = 6;
             this.room_num_label.Text = "ROOM NUMBER";
             // 
@@ -124,7 +124,7 @@
             this.d1_label.AutoSize = true;
             this.d1_label.Location = new System.Drawing.Point(111, 350);
             this.d1_label.Name = "d1_label";
-            this.d1_label.Size = new System.Drawing.Size(35, 13);
+            this.d1_label.Size = new System.Drawing.Size(46, 17);
             this.d1_label.TabIndex = 7;
             this.d1_label.Text = "label1";
             // 
@@ -133,7 +133,7 @@
             this.d2_label.AutoSize = true;
             this.d2_label.Location = new System.Drawing.Point(319, 350);
             this.d2_label.Name = "d2_label";
-            this.d2_label.Size = new System.Drawing.Size(35, 13);
+            this.d2_label.Size = new System.Drawing.Size(46, 17);
             this.d2_label.TabIndex = 8;
             this.d2_label.Text = "label1";
             // 
@@ -142,7 +142,7 @@
             this.d3_label.AutoSize = true;
             this.d3_label.Location = new System.Drawing.Point(539, 350);
             this.d3_label.Name = "d3_label";
-            this.d3_label.Size = new System.Drawing.Size(35, 13);
+            this.d3_label.Size = new System.Drawing.Size(46, 17);
             this.d3_label.TabIndex = 9;
             this.d3_label.Text = "label1";
             // 
@@ -163,6 +163,7 @@
             this.Controls.Add(this.trim);
             this.Controls.Add(this.floor);
             this.Controls.Add(this.wall);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Trivia Maze";
             ((System.ComponentModel.ISupportInitialize)(this.trim)).EndInit();
