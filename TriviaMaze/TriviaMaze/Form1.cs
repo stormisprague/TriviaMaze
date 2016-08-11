@@ -28,6 +28,18 @@ namespace TriviaMaze
             sp.PlayLooping();
             //sp.Play();
             panel1.BackColor = Color.FromArgb(100,88, 44, 55);
+            door1.Parent = wall;
+            door2.Parent = wall;
+            door3.Parent = wall;
+            door1.Controls.Add(log1);
+            log1.Location = new Point(0, 75);
+            log1.BackColor = Color.Transparent;
+            door2.Controls.Add(log2);
+            log2.Location = new Point(50, 50);
+            log2.BackColor = Color.Transparent;
+            door3.Controls.Add(log3);
+            log3.Location = new Point(75, 75);
+            log3.BackColor = Color.Transparent;
             setup();
         }
 
@@ -96,38 +108,38 @@ namespace TriviaMaze
                 //MessageBox.Show("should do some type of replay prompt here");
             }
 
-            room_num_label.Text = "room " + roomNum;
+            //room_num_label.Text = "room " + roomNum;
 
-            changeAppearance(cur.getAppearanceID());
+            //changeAppearance(cur.getAppearanceID());
             setDoors(cur.door1, cur.door2, cur.door3);
         }
 
         private void setDoors(int d1, int d2, int d3)
         {
-            button1.Visible = true;
-            button1.Enabled = !doors[d1].getLocked();
-            if (button1.Enabled) { button1.Text = "Open"; }
-            else { button1.Text = "Locked"; }
-            d1_label.Text = "door " + d1;
+            door1.Visible = true;
+            log1.Visible = doors[d1].getLocked();
+            //if (button1.Enabled) { button1.Text = "Open"; }
+            //else { button1.Text = "Locked"; }
+            //d1_label.Text = "door " + d1;
 
-            button2.Visible = true;
-            button2.Enabled = !doors[d2].getLocked();
-            if (button2.Enabled) { button2.Text = "Open"; }
-            else { button2.Text = "Locked"; }
-            d2_label.Text = "door " + d2;
+            door2.Visible = true;
+            log2.Visible = doors[d2].getLocked();
+          //  if (button2.Enabled) { button2.Text = "Open"; }
+           // else { button2.Text = "Locked"; }
+           // d2_label.Text = "door " + d2;
 
-            button3.Visible = true;
-            button3.Enabled = !doors[d3].getLocked();
-            if (button3.Enabled) { button3.Text = "Open"; }
-            else { button3.Text = "Locked"; }
-            d3_label.Text = "door " + d3;
+            door3.Visible = true;
+            log3.Enabled = doors[d3].getLocked();
+            //if (button3.Enabled) { button3.Text = "Open"; }
+            //else { button3.Text = "Locked"; }
+            //d3_label.Text = "door " + d3;
 
-            if(d1 == 0) { button1.Visible = false; button1.Enabled = false; }
-            if (d2 == 0) { button2.Visible = false; button2.Enabled = false; }
-            if (d3 == 0) { button3.Visible = false; button3.Enabled = false; }
+            if(d1 == 0) { door1.Visible = false; log1.Visible = false; }
+            if (d2 == 0) { door2.Visible = false; log2.Visible = false; }
+            if (d3 == 0) { door3.Visible = false; log3.Visible = false; }
         }
 
-        private void changeAppearance(int aNum)
+     /*   private void changeAppearance(int aNum)
         {
             if (aNum == 1)
             {
@@ -147,7 +159,7 @@ namespace TriviaMaze
                 trim.BackColor = Color.White;
                 floor.BackColor = Color.Gray;
             }
-        }
+        }*/
 
         private void gameOver()
         {
@@ -163,7 +175,7 @@ namespace TriviaMaze
 
         private bool allDoorsLocked()
         {
-           if(button1.Enabled || button2.Enabled || button3.Enabled)
+           if(log1.Visible|| log2.Visible|| log3.Visible)
             {
                 return false;
             }
@@ -174,73 +186,18 @@ namespace TriviaMaze
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool correct = displayQuestion();
 
-            if (correct)
-            {
-                MessageBox.Show("Correct!");
-                int curDoor = rooms[curRoom].door1;
-                int nextRoom = doors[curDoor].getNextRoom(curRoom);
-
-                loadRoom(nextRoom);
-                
-            }
-
-            else
-            {
-
-                button1.Enabled = false;
-                button1.Text = "Locked!";
-                doors[rooms[curRoom].door1].setLocked(true);
-                if (allDoorsLocked()) { gameOver(); }
-            }
            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            bool correct = displayQuestion();
-
-            
-            if (correct)
-            {
-                MessageBox.Show("Correct!");
-                int curDoor = rooms[curRoom].door2;
-                int nextRoom = doors[curDoor].getNextRoom(curRoom);
-
-                loadRoom(nextRoom);
-            }
-
-            else
-            {
-                button2.Enabled = false;
-                button2.Text = "Locked!";
-
-                doors[rooms[curRoom].door2].setLocked(true);
-                if (allDoorsLocked()) { gameOver(); }
-            }
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            bool correct = displayQuestion();
 
-            if (correct)
-            {
-                MessageBox.Show("Correct!");
-                int curDoor = rooms[curRoom].door3;
-                int nextRoom = doors[curDoor].getNextRoom(curRoom);
-
-                loadRoom(nextRoom);
-            }
-
-            else
-            {
-                button3.Enabled = false;
-                button3.Text = "Locked!";
-                doors[rooms[curRoom].door3].setLocked(true);
-                if (allDoorsLocked()) { gameOver(); }
-            }
         }
 
         private bool displayQuestion()
@@ -265,6 +222,76 @@ namespace TriviaMaze
         private void button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void door2_Click(object sender, EventArgs e)
+        {
+            bool correct = displayQuestion();
+
+
+            if (correct)
+            {
+                MessageBox.Show("Correct!");
+                int curDoor = rooms[curRoom].door2;
+                int nextRoom = doors[curDoor].getNextRoom(curRoom);
+
+                loadRoom(nextRoom);
+            }
+
+            else
+            {
+                log2.Visible = true;
+                //button2.Text = "Locked!";
+
+                doors[rooms[curRoom].door2].setLocked(true);
+                if (allDoorsLocked()) { gameOver(); }
+            }
+        }
+
+        private void door1_Click(object sender, EventArgs e)
+        {
+            bool correct = displayQuestion();
+
+            if (correct)
+            {
+                MessageBox.Show("Correct!");
+                int curDoor = rooms[curRoom].door1;
+                int nextRoom = doors[curDoor].getNextRoom(curRoom);
+
+                loadRoom(nextRoom);
+
+            }
+
+            else
+            {
+
+                log1.Visible = true;
+                //button1.Text = "Locked!";
+                doors[rooms[curRoom].door1].setLocked(true);
+                if (allDoorsLocked()) { gameOver(); }
+            }
+        }
+
+        private void door3_Click(object sender, EventArgs e)
+        {
+            bool correct = displayQuestion();
+
+            if (correct)
+            {
+                MessageBox.Show("Correct!");
+                int curDoor = rooms[curRoom].door3;
+                int nextRoom = doors[curDoor].getNextRoom(curRoom);
+
+                loadRoom(nextRoom);
+            }
+
+            else
+            {
+                log3.Visible = true;
+                //button3.Text = "Locked!";
+                doors[rooms[curRoom].door3].setLocked(true);
+                if (allDoorsLocked()) { gameOver(); }
+            }
         }
     }
 }
