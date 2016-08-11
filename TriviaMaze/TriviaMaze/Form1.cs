@@ -27,6 +27,7 @@ namespace TriviaMaze
             System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"Assets\Calm.wav");
             sp.PlayLooping();
             //sp.Play();
+            panel1.BackColor = Color.FromArgb(100,88, 44, 55);
             setup();
         }
 
@@ -90,8 +91,9 @@ namespace TriviaMaze
 
             if(roomNum == endRoom)
             {
-                MessageBox.Show("YOU MADE IT OUT!");
-                MessageBox.Show("should do some type of replay prompt here");
+                GameOver(true);
+                //MessageBox.Show("YOU MADE IT OUT!");
+                //MessageBox.Show("should do some type of replay prompt here");
             }
 
             room_num_label.Text = "room " + roomNum;
@@ -149,7 +151,14 @@ namespace TriviaMaze
 
         private void gameOver()
         {
-            MessageBox.Show("You died in the woods. Sorry not sorry");
+            //MessageBox.Show("You died in the woods. Sorry not sorry");
+            GameOver(false);
+        }
+
+        private void GameOver(bool didIWin)
+        {
+            panel1.Show();
+            WinOrLose.Text = didIWin ? "You Made It Out Alive!" : "You Died in the Woods!";
         }
 
         private bool allDoorsLocked()
@@ -247,5 +256,15 @@ namespace TriviaMaze
             return answer;
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            setup();
+            panel1.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -45,7 +45,7 @@ namespace TriviaMaze
 
                 using (SQLiteCommand command = connection.CreateCommand())
                 {
-                    command.CommandText = "SELECT * FROM QUESTIONS";
+                    command.CommandText = "SELECT * FROM QUESTIONS ORDER BY RANDOM()";
 
                     using (SQLiteDataReader reader = command.ExecuteReader())
                     {

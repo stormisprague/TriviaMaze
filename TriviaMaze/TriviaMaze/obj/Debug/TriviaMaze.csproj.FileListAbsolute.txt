@@ -44,3 +44,4 @@ C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Propert
 C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
 C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
 C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
+C:\Junk\TriviaMaze\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csprojResolveAssemblyReference.cache

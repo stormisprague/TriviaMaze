@@ -39,9 +39,14 @@
             this.d1_label = new System.Windows.Forms.Label();
             this.d2_label = new System.Windows.Forms.Label();
             this.d3_label = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.WinOrLose = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.floor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -146,6 +151,57 @@
             this.d3_label.TabIndex = 9;
             this.d3_label.Text = "label1";
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.WinOrLose);
+            this.panel1.Location = new System.Drawing.Point(-1, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(690, 428);
+            this.panel1.TabIndex = 10;
+            this.panel1.Visible = false;
+            // 
+            // WinOrLose
+            // 
+            this.WinOrLose.BackColor = System.Drawing.Color.Transparent;
+            this.WinOrLose.Font = new System.Drawing.Font("Raleway", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WinOrLose.Location = new System.Drawing.Point(90, 116);
+            this.WinOrLose.Name = "WinOrLose";
+            this.WinOrLose.Size = new System.Drawing.Size(486, 60);
+            this.WinOrLose.TabIndex = 0;
+            this.WinOrLose.Text = "You won!";
+            this.WinOrLose.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(131, 278);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(183, 51);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "Play Again";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(362, 278);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(183, 51);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "Quit";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -153,6 +209,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(684, 425);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.d3_label);
             this.Controls.Add(this.d2_label);
             this.Controls.Add(this.d1_label);
@@ -169,6 +226,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trim)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.floor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,6 +244,10 @@
         private System.Windows.Forms.Label d1_label;
         private System.Windows.Forms.Label d2_label;
         private System.Windows.Forms.Label d3_label;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label WinOrLose;
     }
 }
 
